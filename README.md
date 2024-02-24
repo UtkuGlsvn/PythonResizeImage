@@ -14,6 +14,8 @@ This Python script allows you to resize images to a specified size and format.
 
 Before running the script, ensure you have Pillow installed. You can install it using pip:
 
+Code Format: python resize_image.py -i [input_path] -o [output_path] -w [width] -H [height] -f [format]
+
 ```bash
 pip install Pillow
 
@@ -25,6 +27,8 @@ Run the script from the command line with the following arguments:
 -w or --width: Width of the output image in pixels.
 -H or --height: Height of the output image in pixels.
 -f or --format: Format of the output image (either 'png' or 'jpeg').
+
+
 
 python resize_image.py -i "path/to/input/image.jpg" -o "path/to/output/image.png" -w 100 -H 100 -f png
 This will resize the input image to 100x100 pixels and save it in PNG format.
